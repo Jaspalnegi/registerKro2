@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-vercel Link --- https://figma2-git-main-jaspal-negi-s-projects.vercel.app/
+vercel Link --- https://register-kro2-8i9f1y0pl-jaspal-negi-s-projects.vercel.app/
 
 
 This project is a React-based web application that aims to meet high performance standards and a seamless user experience across various devices (desktop and mobile). The primary goals of the project are:
