@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 
-function Home() {
+function Hero() {
   return (
     <>
       <div name="Home"
@@ -73,4 +73,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;
