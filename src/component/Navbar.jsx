@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/regesterkro-logo.webp";
 import { navItems } from "../constant";
 
 const Navbar = () => {
@@ -16,10 +16,10 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">RegisterKaro
+            <span className="text-xl tracking-tight font-bold text-blue-900">Register<span className="text-orange-400">Karo</span>
             </span>
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12">
+          <ul className="hidden lg:flex ml-14 space-x-12 text-gray-900 text-bold">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
@@ -27,14 +27,14 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+            <a href="#" className="py-2 px-3 border rounded-md bg-orange-500 text-white">
               Contact Us 
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white"
             >
-             Talk An Expert 
+          📞+918447746183
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
